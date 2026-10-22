@@ -76,3 +76,7 @@ header,#wordDownload,.language button,.next a,.primary{font-size:13px}
 .reading-progress,.eyebrow,nav .nav-label,.guide-label{font-size:11px}
 .side-foot{font-size:11px}.side-foot small{font-size:10px}
 @media(max-width:650px){h1,html[lang=en] h1{font-size:29px;letter-spacing:-1px}.lead{font-size:13px}h2{font-size:20px}h3{font-size:17px}body,.steps>li p,details p,details ul,.note,.simple-table td{font-size:14px}.language button,#wordDownload{font-size:12px}}
+
+/* Keep mobile navigation from triggering input zoom or text inflation. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media(max-width:650px){.search input{font-size:16px}}
