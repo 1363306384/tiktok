@@ -131,3 +131,6 @@ main.guide-home{padding-top:36px;padding-bottom:35px}
 /* UI labels stay at the surrounding text size. */
 main code{font-size:1em}
 main .note strong{margin-right:.3em}
+
+/* Each adjoining section boundary uses one separator. */
+.hero:has(+ .details-wrap),.hero:has(+ .mode-list),.hero:has(+ .page-contents){border-bottom:0}
