@@ -134,3 +134,8 @@ main .note strong{margin-right:.3em}
 
 /* Each adjoining section boundary uses one separator. */
 .hero:has(+ .details-wrap),.hero:has(+ .mode-list),.hero:has(+ .page-contents){border-bottom:0}
+
+/* Keep the introduction close to its in-page contents. */
+.hero:has(+ .page-contents){padding-bottom:0;margin-bottom:16px}
+.hero:has(+ .page-contents) .lead{margin-bottom:0}
+.page-contents{padding-bottom:16px;margin-bottom:24px}
